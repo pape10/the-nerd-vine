@@ -1,0 +1,17 @@
+name: search-engine-venv
+channels: 
+  - default
+dependencies:
+  - python=3.8
+  - pandas=1.1.0
+  - pip
+  - pip:
+      - opencv-python
+      - sklearn
+      - scikit-learn
+      - tensorflow
+      - pillow
+      - matplotlib
+      - tqdm
+      - pytorch
+      - torchvision
