@@ -1,0 +1,13 @@
+name: expression-detect
+channels: 
+  - default
+dependencies:
+  - python=3.8
+  - pandas=1.1.0
+  - pip
+  - pip:
+      - tensorflow
+      - keras
+      - opencv-python
+      - matplotlib
+      
